@@ -2,6 +2,10 @@
     background-image: url(base.png);
 }
 
+.ds4.disconnected {
+    background: url(disconnected.png);
+}
+
 .ds4.white .trigger {
     background-image: url(triggers.png);
 }
