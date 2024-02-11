@@ -10,6 +10,10 @@
     background-image: url(triggers.png);
 }
 
+.ds4 .trigger.right {
+    background-position-x: 98px;
+}
+
 .ds4.white .bumper {
     background-image: url(bumper.png);
 }
