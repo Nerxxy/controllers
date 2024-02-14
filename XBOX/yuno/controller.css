@@ -6,6 +6,14 @@
     background-repeat: no-repeat;
 }
 
+.custom .disconnected {
+    background: url('disconnected.png');
+    height: 820px;
+    width: 696px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
 .custom .triggers {
     width: 598px;
     height: 145px;
