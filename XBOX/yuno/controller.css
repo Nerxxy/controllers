@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
 }
 
-.custom.disconnected {
+.disconnected.custom {
     background: url('disconnected.png');
     height: 820px;
     width: 696px;
