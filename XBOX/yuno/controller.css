@@ -8,8 +8,8 @@
 
 .custom.disconnected {
     background: url('disconnected.png');
+    width: 969px;
     height: 820px;
-    width: 696px;
     position: absolute;
     background-repeat: no-repeat;
 }
