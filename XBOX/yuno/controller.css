@@ -14,6 +14,10 @@
     background-repeat: no-repeat;
 }
 
+.custom.disconnected div {
+    display: none;
+}
+
 .custom .triggers {
     width: 598px;
     height: 145px;
