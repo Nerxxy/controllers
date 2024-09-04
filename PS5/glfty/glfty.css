@@ -1,5 +1,5 @@
 .custom .controller {
-    background: url(glfty/base3.png);
+    background: url(base3.png);
     width: 969px;
     height: 843px;    
     position: absolute;
@@ -16,7 +16,7 @@
 .custom .trigger {
     width: 118px;
     height: 162px;
-    background: url(glfty/triggers.png);
+    background: url(triggers.png);
     opacity: 0;
     position: relative;
 }
@@ -55,11 +55,11 @@
 }
 
 .custom .bumper.left {
-    background: url(glfty/bumper-left-large.png);
+    background: url(bumper-left-large.png);
 }
 
 .bumper.right {
-    background: url(glfty/bumper-right-large.png);
+    background: url(bumper-right-large.png);
 }
 
 /* start-back */
@@ -73,7 +73,7 @@
 }
 
 .custom .back, .custom .start {
-    background: url(glfty/start-select.png);
+    background: url(start-select.png);
     width: 46px;
     height: 61px;
     opacity: 0;
@@ -113,7 +113,7 @@
 
 .custom .button {
     position: absolute;
-    background: url(glfty/abxy.png);
+    background: url(abxy.png);
     width: 268px;
     height: 263px;
     scale: 80%;
@@ -173,7 +173,7 @@
 
 .custom .stick {
     position: absolute;
-    background: url(glfty/sticks.png);
+    background: url(sticks.png);
     height: 116px;
     width: 116px;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@
 }
 
 .custom .face.up {
-    background: url(glfty/Up.png);
+    background: url(Up.png);
     left: -163px;
     top: -244px;
     width: 222px;
@@ -226,7 +226,7 @@
 }
 
 .custom .face.down {
-    background: url(glfty/Down.png);
+    background: url(Down.png);
     left: -163px;
     top: -244px;
     width: 222px;
@@ -235,7 +235,7 @@
 }
 
 .custom .face.left {
-    background: url(glfty/Left.png);    
+    background: url(Left.png);    
     left: -163px;
     top: -244px;
     width: 222px;
@@ -244,7 +244,7 @@
 }
 
 .custom .face.right {
-    background: url(glfty/Right.png);
+    background: url(Right.png);
     left: -163px;
     top: -244px;
     width: 222px;
