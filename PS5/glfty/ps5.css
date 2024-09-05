@@ -86,7 +86,7 @@
     position: absolute;
     width: 205px;
     height: 19px;
-    top: 250px;
+    top: 250px !important;
     left: 291px;
     background-repeat: no-repeat;
 }
