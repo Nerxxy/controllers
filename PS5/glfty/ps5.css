@@ -172,7 +172,7 @@
 
 .custom .y.pressed {
     /* Triangle on PS5*/
-    clip: rect(0px, 172px, 88px, 0px);
+    clip: rect(0px, 172px, 70px, 0px);
     background-repeat: no-repeat;
 }
 
