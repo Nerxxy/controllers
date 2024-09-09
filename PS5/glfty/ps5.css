@@ -1,0 +1,263 @@
+.controller.custom {
+    background:url('base3.png');
+    height: 850px;
+    width: 1050px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.custom.disconnected {
+    background: url('disconnected.png');
+    height: 820px;
+    width: 696px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+/*  */
+
+.custom .triggers {
+    width: 598px;
+    height: 145px;
+    left: 185px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.custom .trigger {
+    width: 118px;
+    height: 162px;
+    background: url(triggers.png);
+    position: relative;
+    opacity: 0;
+}
+
+.custom .trigger.pressed {
+    opacity: 1;
+}
+
+.custom .trigger.left {
+    float: left;
+    background-position: 0 0;
+    left: -63px;
+    top: 8px;
+    position: absolute;
+}
+
+.custom .trigger.right {
+    float: right;
+    background-position: 118px 0;
+    left: 542px;
+    top: 8px;
+    position: absolute;
+}
+
+/*  */
+
+.custom .bumper {
+    width: 969px;
+    height: 333px;
+    opacity: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+.custom .bumper.right {
+    background: url(bumper-right-large.png);
+    float: left;
+}
+
+.custom .bumper.left {
+    background: url(bumper-left-large.png);
+    float: right;
+}
+
+/*  */
+
+.custom .arrows {
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat: no-repeat;
+}
+
+.custom .back,
+.custom .start {
+    background: url(start-select.png);
+    width: 88px;
+    height: 61px;
+    background-repeat: no-repeat;
+}
+
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+}
+
+.custom .back {
+    /* share */
+    position: absolute;
+    top: -47px;
+    left: -52px;
+    float: left;
+    width: 35px;
+    height: 61px;
+    opacity: 0;
+}
+
+.custom .start {
+    /* options */
+    position: absolute;
+    background-position: -35px 0;
+    top: -47px;
+    left: 404px;
+    float: right;
+    width: 44px;
+    height: 61px;
+    opacity: 0;
+}
+
+/*  */
+
+.custom .abxy {
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.custom .button {
+    position: absolute;
+}
+
+.custom .button.pressed {
+    background: url(abxy.png);
+    height: 210px;
+    width: 214px;
+    top: 230px;
+    left: 685px;
+    margin-top: 0px;
+    background-position-y: -00px;
+}
+
+.custom .a.pressed {
+    /* X on PS5*/
+    clip: rect(0px, 184px, 88px, 0px);
+    background-position-y: -140px;
+    top: 368px;
+    background-repeat: no-repeat;
+}
+
+.custom .b.pressed {
+    /* circle on PS5*/
+    clip: rect(0px, 100px, 170px, 0px);
+    background-position-x: -140px;
+    left: 825px;
+    background-repeat: no-repeat;
+}
+
+.custom .x.pressed {
+    /* square on PS5*/
+    clip: rect(0px, 70px, 170px, 0px);
+    background-repeat: no-repeat;
+}
+
+.custom .y.pressed {
+    /* Triangle on PS5*/
+    clip: rect(0px, 172px, 88px, 0px);
+    background-repeat: no-repeat;
+}
+
+/*  */
+
+.custom .sticks {
+    position: absolute;
+    width: 364px;
+    height: 100px;
+    top: 410px;
+    left: 289px;
+    background-repeat: no-repeat;
+}
+
+.custom .stick {
+    position: absolute;
+    background: url(sticks.png);
+    height: 116px;
+    width: 116px;
+    background-repeat: no-repeat;
+}
+
+.custom .stick.pressed.left {
+    background-position-x: -118px;
+    left: -22px;
+    top: -6px;
+}
+
+.custom .stick.pressed.right {
+    background-position-x: -118px;
+    left: 298px;
+    top: -6px;
+}
+
+.custom .stick.left {
+    top: -4px;
+    left: -23px;
+}
+
+.custom .stick.right {
+    top: -4px;
+    left: 297px;
+}
+
+/*  */
+
+.custom .dpad {
+    position: relative;
+    height: 173px;
+    width: 178px;
+    left: 87px;
+    top: 245px;
+    background-repeat: no-repeat;
+    background-color: aquaa;
+}
+
+.custom .face {
+    position: absolute;
+}
+
+.custom .face.right.pressed {
+    background: url(Right.png);
+    width: 222px;
+    height: 216px;
+    background-repeat: no-repeat;
+}
+
+.custom .face.left.pressed {
+    background: url(Left.png);
+    width: 222px;
+    height: 216px;
+    background-repeat: no-repeat;
+}
+
+.custom .face.up.pressed {
+    background: url(Up.png);
+    width: 222px;
+    height: 216px;
+    background-repeat: no-repeat;
+
+}
+
+.custom .face.down.pressed {
+    background: url(Down.png);
+    width: 222px;
+    height: 216px;
+    background-repeat: no-repeat;
+}
