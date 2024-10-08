@@ -104,15 +104,15 @@ opacity: 0;
 .custom .stick.pressed.left{
     position: absolute;
     background: url(L3.png);
-    height: 1200px;
-    width: 1250px;
+    height: 142px;
+    width: 142px;
     background-repeat:no-repeat;
 }
 .custom .stick.pressed.right{
     position: absolute;
     background: url(R3.png);
-    height: 1200px;
-    width: 1250px;
+    height: 142px;
+    width: 142px;
     background-repeat:no-repeat;
 }
 .custom .stick.left{
@@ -120,8 +120,8 @@ opacity: 0;
     background: url(LS.png);    
     left: 183px;
     top: 464px;
-    height: 1200px;
-    width: 1250px;
+    height: 142px;
+    width: 142px;
     background-repeat:no-repeat;
 }
 .custom .stick.right{
@@ -129,8 +129,8 @@ opacity: 0;
     background: url(RS.png);
     left: 736px;
     top: 654px;
-    height: 1200px;
-    width: 1250px;
+    height: 142px;
+    width: 142px;
     background-repeat:no-repeat;
 }
 .custom .dpad{
