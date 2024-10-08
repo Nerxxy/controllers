@@ -1,0 +1,167 @@
+*{
+    scale: %;
+    margin: 0px;
+    padding: 0px;
+}
+
+.controller.custom{
+    background: url(base.webp); 
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom.disconnected { 
+    background: url(disconnected.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers{ 
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{
+    height: 1000px;
+    width: 1250px;
+
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    background: url(L2.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .trigger.right{
+    background: url(R2.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .bumper{
+opacity: 0;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+    width: 1250;
+    height: 1000;
+}
+.custom .bumper.right{
+    height: 889px;
+    width: 1300px;
+    background: url(R1.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .bumper.left{
+    height: 889px;
+    width: 1300px;
+    background: url(L1.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .abxy{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .button{
+    position: absolute;
+}
+.custom .button.pressed{
+    background-position-y: -00px;
+    margin-top: 0px;
+}
+.custom .a.pressed{ /* X on PS4*/
+    background: url(A.png); 
+    height: 889px;
+    width: 1200px;
+    background-repeat:no-repeat;
+}
+.custom .b.pressed{ /* circle on PS4*/
+    background: url(B.png);
+    height: 889px;
+    width: 1300px;
+    background-repeat:no-repeat;
+}
+.custom .x.pressed{ /* square on PS4*/
+    background: url(X.png); 
+    height: 889px;
+    width: 1000px;
+    background-repeat:no-repeat;
+}
+.custom .y.pressed{ /* Triangle on PS4*/
+    background: url(Y.png) ; 
+    height: 889px;
+    width: 1050px;
+    background-repeat:no-repeat;
+}
+.custom .sticks{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .stick.{
+
+    position: absolute;
+}
+.custom .stick.pressed.left{
+    position: absolute;
+    background: url(L3.png);
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .stick.pressed.right{
+    position: absolute;
+    background: url(R3.png);
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .stick.left{
+    position: absolute;
+    background: url(LS.png);    
+    left: 183px;
+    top: 464px;
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .stick.right{
+    position: absolute;
+    background: url(RS.png);
+    left: 736px;
+    top: 654px;
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .dpad{
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .face{
+    position: absolute;
+}
+.custom .face.right.pressed{
+    background: url(right.png);
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .face.left.pressed{
+    background: url(left.png);
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .face.up.pressed{
+    background: url(up.png);
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
+.custom .face.down.pressed{ 
+    background: url(down.png);
+    height: 1200px;
+    width: 1250px;
+    background-repeat:no-repeat;
+}
