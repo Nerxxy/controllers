@@ -156,7 +156,7 @@
 }
 
 .xbox .stick.pressed {
-    background-position: -108px 0;
+    background-position: -111px 0;
 }
 
 .xbox .stick.left {
@@ -229,6 +229,7 @@
 .xbox .quadrant {
     display: none !important;
 }
+
 
 
 
